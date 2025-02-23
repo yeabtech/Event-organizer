@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+    
+    <header class="header">
+        <nav class="nav container">
+           <div class="nav__data">
+              <a href="event home page.html" class="nav__logo">
+                 <i class="ri-planet-line"></i> EventZen
+              </a>
+              
+              <div class="nav__toggle" id="nav-toggle">
+                 <i class="ri-menu-line nav__burger ">Menu</i>
+                 <i class="ri-close-line nav__close">close</i>
+              </div>
+           </div>
+
+           <!--=============== NAV MENU ===============-->
+           <div class="nav__menu" id="nav-menu">
+              <ul class="nav__list">
+                 <li><a href="event home page.html" class="nav__link">Home</a></li>
+
+
+
+                 <!--=============== DROPDOWN 1 ===============-->
+                 <li class="dropdown__item">
+                    <div class="nav__link">
+                       service <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                    </div>
+
+                    <ul class="dropdown__menu">
+                       <li>
+                          <a href="live.html" class="dropdown__link">
+                             <i class="ri-pie-chart-line"></i> live event
+                          </a>                          
+                       </li>
+
+                       <li>
+                          <a href="family event.html" class="dropdown__link">
+                             <i class="ri-arrow-up-down-line"></i> family event
+                          </a>
+                       </li>
+                       <li>
+                        <a href="sport.html" class="dropdown__link">
+                             <i class="ri-bar-chart-line"></i> sport<i class="ri-add-line dropdown__add"></i>
+                            </a>
+
+                          
+                       </li>
+                       <li></li>
+                       <a href="work.html" class="dropdown__link">
+                        <i class="ri-bar-chart-line"></i> work shop<i class="ri-add-line dropdown__add"></i>
+                       </a>
+
+                     
+                  </li>
+                    </ul>
+                 </li>
+                 
+                 <li><a href="about.html" class="nav__link">about</a></li>
+
+
+
+                 <!--=============== DROPDOWN 2 ===============-->
+                 <li class="dropdown__item"><a href="index.html">
+                    <div class="nav__link">
+                       gallary <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                    </div></a>
+
+                   
+                 </li>
+
+                 <li><a href="cont.html" class="nav__link">Contact</a></li>
+              </ul>
+           </div>
+        </nav>
+     </header>
+
+
+
+
+    <!-- carousel -->
+
+    <div class="carousel">
+
+        <!-- list item -->
+        <div class="list">
+            
+            <div class="item">
+                <img src="images/wedding2.jpg">
+                <div class="content">
+                    <div class="author">company</div>
+                    <div class="title">Your Day, Our</div>
+                    <div class="topic">Expertise</div>
+                   
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                        <button>SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/pic1.jpg">
+                <div class="content">
+                    <div class="author">company</div>
+                    <div class="title">Epic Sports,</div>
+                    <div class="topic">Flawless Execution</div>
+                   
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                        <button>SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/gr.jpg">
+                <div class="content">
+                    <div class="author">company</div>
+                    <div class="title">Graduation Glory,</div>
+                    <div class="topic"> Unforgettable Story</div>
+                   
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                        <button>SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/conc.jpg">
+                <div class="content">
+                    <div class="author">company</div>
+                    <div class="title">Rocking Events,</div>
+                    <div class="topic"> Unmatched Vibes.</div>
+                   
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                        <button>SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- list thumnail -->
+        <div class="thumbnail">
+            <div class="item">
+                <img src="images/wedding2.jpg">
+                <div class="content">
+                    <div class="title">
+                        Wedding
+                    </div>
+                    <div class="description">
+                        Are You Engaged?? Contact us..
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/pic1.jpg">
+                <div class="content">
+                    <div class="title">
+                        Sport
+                    </div>
+                    <div class="description">
+                        Do you love Football or any other sport
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/gr.jpg">
+                <div class="content">
+                    <div class="title">
+                        Graduation
+                    </div>
+                    <div class="description">
+                        Congratulations!!!
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/conc.jpg">
+                <div class="content">
+                    <div class="title">
+                        MUSIC
+                    </div>
+                    <div class="description">
+                        Do You love music??
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- next prev -->
+
+        <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+
+        <!-- time running -->
+        <div class="time"></div>
+
+    </div>
+    <section class="service" id="service">
+        <h1 class="heading"><span>Service</span> that we give</h1>
+        <div class="box-container">
+        <div class="box">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>Bar Service</h3>
+            <p>Experience the epitome of mixology with our bespoke bar service </p>
+        </div>
+    
+        <div class="box">
+            <i class="fas fa-map-envelop"></i>
+            <h3>Live event</h3>
+            <p> Our team handles everything from venue selection and technical coordination <br>
+                to talent management, ensuring seamless execution </p>
+        </div>
+    
+        <div class="box">
+            <i class="fas fa-map-music"></i>
+            <h3>Music Service</h3>
+            <p>Managing logistics, coordinating artists, <br>
+         and ensuring a smooth flow for concerts and music festivals. </p>
+        </div>
+    
+        <div class="box">
+            <i class="fas fa-map-culinary"></i>
+            <h3>Culinary Service</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                 veritatis quaerat pariatur recusandae </p>
+        </div>
+    
+        <div class="box">
+            <i class="fas fa-map-culinary"></i>
+            <h3>Sport Service</h3>
+            <p>Coordinating logistics, managing facilities, <br>
+                and handling the organization of sporting events. </p>
+        </div>
+    
+        <div class="box">
+            <i class="fas fa-map-culinary"></i>
+            <h3>Workshop Service</h3>
+            <p> Elevate your organization's potential through our tailored workshops <br>
+                that combine insightful content with interactive activities, <br>
+                 leaving a lasting impact on both individuals and the collective success of your team </p>
+        </div>
+    
+        <div class="box">
+            <i class="fas fa-map-culinary"></i>
+            <h3>Festival</h3>
+            <p>Coordinating various aspects of festivals, <br>
+                 including logistics, entertainment, and vendor management.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-map-culinary"></i>
+            <h3>Festival</h3>
+            <p>Coordinating various aspects of festivals, <br>
+                 including logistics, entertainment, and vendor management.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-map-culinary"></i>
+            <h3>Sport Service</h3>
+            <p>Coordinating logistics, managing facilities, <br>
+                and handling the organization of sporting events. </p>
+        </div>
+    
+        <div class="box">
+            <i class="fas fa-map-culinary"></i>
+            <h3>Product launch</h3>
+            <p>Assisting with the launch of new products or services, <br>
+                including planning and executing launch events.</p>
+        </div>
+    </div>
+    <a href="about.html" class="job-more">More</a>
+    
+    
+    <section class="about" id="about">
+        <h1 class="heading">Our <span>Team</span></h1>
+    
+        <div class="row">
+            <div class="image">
+                <img src="images/annie-spratt-QckxruozjRg-unsplash (1).jpg" alt="">
+            </div>
+    
+            <div class="content ">
+                <h3>We are EventZen's</h3>
+                <p>Our team consists of five members Yimesgen Amanuel, Yeshigeta Ambachew, <br>
+                    Yishak Wujira, Yeabsira Genene and Yonas Getahun. We are N5 students</p>
+                    <a href="cont.html" class="btn">CONTACT US</a>
+            </div>
+        </div>
+    
+    </section>
+
+    <div class="testimonial">
+        <div class="small-container1">
+            <div class="row1">
+                <div class="col-3">
+                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    <p>I have ordered from She Beaded Jewels several times, and I have always been happy with my purchases. The jewelry is beautiful, well-made,
+                         and reasonably priced. I would definitely recommend She Beaded Jewels to anyone looking for unique and handmade jewels.
+                    </p>
+                    <div class="ratings">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                    <img src="images/ketan-rajput-oStsWdLWFzA-unsplash.jpg">
+                    <h3>zamanuel fetene</h3>
+                </div>  <div class="col-3">
+                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    <p>Overall, I would highly recommend She Beaded Jewels to anyone looking for unique and handmade jewelry.
+                         The quality of the jewelry is excellent, the prices are reasonable, the delivery is fast and the customer service is great.
+                    </p>
+                    <div class="ratings">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                      
+                    </div>
+                    <img src="images/ac2.webp">
+                    <h3>Soliana Doju</h3>
+                </div>  <div class="col-3">
+                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    <p>The prices at She Beaded Jewels are very reasonable, especially considering the quality of the jewelry. 
+                        You can get a beautiful and unique piece of jewelry without breaking the bank
+                    </p>
+                    <div class="ratings">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                    <img src="images/ac2.webp">
+                    <h3>Yonas Getahun</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+                    <footer class="footer">
+                        <div class="container">
+                            <div class="more-info">
+                                <ul>
+                                    <a href="about.html"><li>About Us</li></a>
+                                    <a href="cont.html"><li>Contact Us</li></a>
+                                    <a href="faq.html"><li>FAQS?</li></a>
+                                </ul>
+                            </div>
+                            <div class="socials">
+                                <a href="https://www.facebook.com"><img src="icon/th (1).jpg" alt="facebook-icon"></a>
+                                <a href="https://www.instagram.com"><img src="icon/th.jpg" alt="instagram-icon"></a>
+                                <a href="https://www.twitter.com"><img src="icon/th (2).jpg" alt="twitter-icon"></a>
+                                <a href="https://www.telegram.com"><img src="icon/R.png" alt=""></a>
+                            </div>
+                        </div>
+                        <p class="copyright">© 2023 Eventzen Event Organizer All rights reserved.Eventzen Event Organizer  is a registered trademark of Event Organizer LLC. No part of this website may be reproduced, distributed, transmitted, displayed, or otherwise used without the prior written permission of Eventzen Event Organizer LLC.
+                         
+                        </p>
+                        </footer>
+
+
+    <script src="js file/home.js"></script>
+</body>
+</html>

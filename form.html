@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="author" content="CodePel">
+      <title> booking </title>
+      <!-- Style CSS -->
+      <link rel="stylesheet" href="css/form.css">
+      <link rel="stylesheet" href="css/home.css">
+
+
+   </head>
+   <body class="bd">
+    <header class="header">
+      <nav class="nav container">
+         <div class="nav__data">
+            <a href="event home page.html" class="nav__logo">
+               <i class="ri-planet-line"></i> EventZen
+            </a>
+            
+            <div class="nav__toggle" id="nav-toggle">
+               <i class="ri-menu-line nav__burger">menu</i>
+               <i class="ri-close-line nav__close">close</i>
+            </div>
+         </div>
+
+         <!--=============== NAV MENU ===============-->
+         <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+               <li><a href="event home page.html" class="nav__link">Home</a></li>
+
+
+
+               <!--=============== DROPDOWN 1 ===============-->
+               <li class="dropdown__item">
+                  <div class="nav__link">
+                     service <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                  </div>
+
+                  <ul class="dropdown__menu">
+                      <li>
+                         <a href="live.html" class="dropdown__link">
+                            <i class="ri-pie-chart-line"></i> live event
+                         </a>                          
+                      </li>
+
+                      <li>
+                         <a href="family event.html" class="dropdown__link">
+                            <i class="ri-arrow-up-down-line"></i> family event
+                         </a>
+                      </li>
+                      <li>
+                       <a href="sport.html" class="dropdown__link">
+                            <i class="ri-bar-chart-line"></i> sport<i class="ri-add-line dropdown__add"></i>
+                           </a>
+
+                         
+                      </li>
+                      <li></li>
+                      <a href="work.html" class="dropdown__link">
+                       <i class="ri-bar-chart-line"></i> work shop<i class="ri-add-line dropdown__add"></i>
+                      </a>
+
+                    
+                 </li>
+                   </ul>
+               </li>
+               
+               <li><a href="about.html" class="nav__link">about</a></li>
+
+               <!--=============== DROPDOWN 2 ===============-->
+               <li class="dropdown__item"><a href="index.html">
+                  <div class="nav__link">
+                     gallary <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                  </div></a>
+
+                  
+
+               <li><a href="#" class="nav__link">Contact</a></li>
+            </ul>
+         </div>
+      </nav>
+   </header>
+      <header class="cd__intro">
+         <h1>  Booking  </h1>
+         <p> Events Booking Form </p>
+        
+      </header>
+      <!--main form-->
+      <main class="cd__main">
+       
+         <form class="booking-form" action="#" method="post">
+  <div class="elem-group">
+    <label for="name">Your Name</label>
+    <input type="text" id="name" name="visitor_name" placeholder="yeabsira genene" pattern=[A-Z\\sa-z]{3,20} required>
+  </div>
+  <div class="elem-group">
+    <label for="email">Your E-mail</label>
+    <input type="email" id="email" name="visitor_email" placeholder="yabu@email.com" required>
+  </div>
+  <div class="elem-group">
+    <label for="phone">Your Phone</label>
+    <input type="tel" id="phone" name="visitor_phone" placeholder="+2519-60-12-88-53" pattern=(\\d{3})-?\\s?(\\d{3})-?\\s?(\\d{4}) required>
+  </div>
+  <div class="elem-group">
+    <label for="address">Your address</label>
+    <input type="address" id="name" name="visitor_name" placeholder="4kilo" required>
+  </div>
+  <hr>
+  
+  
+  <div class="elem-group inlined">
+    <label for="checkin-date">Check-in Date</label>
+    <input type="date" id="checkin-date" name="checkin" required>
+  </div> 
+  <hr>
+  <br>
+  <div class="elem-group">
+    <textarea id="message" name="visitor_message" placeholder="Tell us anything else that might be important." required></textarea>
+  </div>
+  <button type="submit">make-payment</button>
+</form>
+         <!-- form-->
+      </main>
+      <script src="form.js"></script>
+      <script>
+         /* navigation*/
+const showMenu = (toggleId, navId) =>{
+    const toggle = document.getElementById(toggleId),
+          nav = document.getElementById(navId)
+ 
+    toggle.addEventListener('click', () =>{
+        // Add show-menu class to nav menu
+        nav.classList.toggle('show-menu')
+ 
+        // Add show-icon to show and hide the menu icon
+        toggle.classList.toggle('show-icon')
+    })
+ }
+ 
+ showMenu('nav-toggle','nav-menu')
+      </script>
+
+   </body>
+</html>
