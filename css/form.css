@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Montserrat+Alternates:wght@100&family=Noto+Serif&family=Nunito+Sans:ital,opsz,wght@1,6..12,300&family=Poiret+One&family=Poppins:ital,wght@1,300&family=Roboto&display=swap');
+:root{
+    --main-color: rgb(234, 191, 139);
+}
+*{
+    font-family: 'Poiret One', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+*{ margin: 0; padding: 0;}
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+    
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+  font-size: 15px;
+ 
+}
+.bd{
+  background-color: #c9a66c;
+}
+
+
+
+
+
+.cd__main{
+  background: #fff;
+  padding: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+.cd__main{
+    display: flex;
+    width: 100%;
+}
+
+@media only screen and (min-width: 1360px){
+    .cd__main{
+      max-width: 1280px;
+      margin-left: auto;
+      margin-right: auto; 
+      padding: 24px;
+    }
+}
+
+.booking-form {
+  width: 500px;
+  margin: 0 auto;
+  padding: 50px;
+  background: #e4bd6a;
+}
+.cd__main{
+   background: rgba(238, 144, 11, 0.858)
+}
+div.elem-group {
+  margin: 20px 0;
+}
+
+div.elem-group.inlined {
+  width: 49%;
+  display: inline-block;
+  float: left;
+  margin-left: 1%;
+}
+
+label {
+  display: block;
+  font-family: 'Nanum Gothic';
+  padding-bottom: 10px;
+  font-size: 1.25em;
+}
+
+input, select, textarea {
+  border-radius: 2px;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  font-size: 1.25em;
+  font-family: 'Nanum Gothic';
+  width: 100%;
+  padding: 10px;
+}
+
+div.elem-group.inlined input {
+  width: 95%;
+  display: inline-block;
+}
+
+textarea {
+  height: 250px;
+}
+
+hr {
+  border: 1px dotted #ccc;
+}
+
+button {
+  height: 50px;
+  background: orange;
+  border: none;
+  color: white;
+  font-size: 1.25em;
+  font-family: 'Nanum Gothic';
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 0 12px;
+}
+
+button:hover {
+  background: #333;
+}
+
+/* radio button css */
